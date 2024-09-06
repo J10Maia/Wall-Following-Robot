@@ -1,30 +1,27 @@
-# Preparing your PC
+# 🤖 Wall Following Robot
 
-## Software to download
+![Robot GIF](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)
 
-* Visual Studio Code: [VSCode](https://code.visualstudio.com/download)
-* Distributed version control system: [Git](https://git-scm.com/downloads)
-* USB driver installation made easy: [Zadig](https://github.com/pbatard/libwdi/releases/download/v1.5.0/zadig-2.8.exe)
+## Overview
 
-## Installation Sequence
+The Wall Following Robot is an autonomous robotic system designed to follow walls or obstacles using ultrasonic sensors. This project showcases my skills in embedded systems, real-time processing, and robotics. The robot can navigate environments by detecting and maintaining a specific distance from walls, making it ideal for applications in confined or structured spaces.
 
-* Open *Regedit*
-  * Go to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem in regedit and then set LongPathsEnabled to 1.
+## 🎥 Video Demonstration
 
-* Install Git
-   * Open *Git CMD*
-   * Run the command **git config --global core.longpaths true**
-   * Reboot
+Check out the Wall Following Robot in action! Watch the video demonstration on [YouTube](https://youtu.be/18UAGtivYn0).
 
-* Install VSCode
+[![Wall Following Robot Video](https://img.youtube.com/vi/18UAGtivYn0/0.jpg)](https://youtu.be/18UAGtivYn0)
 
-* Open VSCode and click the extensions Icon
+## 🚀 Features
 
-  * Search for "PlatformIO"
-  * Install PlatformIO
-  * VSCode will ask to restart
+- **Autonomous Navigation:** The robot autonomously follows walls using ultrasonic sensors.
+- **Obstacle Detection:** Capable of detecting obstacles and adjusting its path to avoid collisions.
+- **Real-Time Processing:** Implements real-time decision-making algorithms to ensure smooth navigation.
+- **Embedded Systems:** Designed with efficient embedded systems, integrating hardware and software seamlessly.
 
-## Compiling the Project
+## 🛠️ Technologies Used
 
-* In VSCode choose **File->Open Folder...** and select the folder where the project is.
-* If it is the first time, the next step can take a long time because PlatformIO wil have to download the compiler, the tools and the libraries. It will happen just for the first time if the process completes without errors. When everything is installed the icon with a checkmark in the bottom must be clicked to build the firmware.
+- **C Programming:** Core logic and algorithms implemented in C.
+- **Arduino:** Used for interfacing with sensors and controlling the robot's movements.
+- **Ultrasonic Sensors:** Employed for precise distance measurement and wall detection.
+- **Motor Control:** Efficient motor control for smooth navigation.
