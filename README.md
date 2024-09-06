@@ -84,8 +84,8 @@ Check out the Wall Following Robot in action! Watch the video demonstration on [
 
 If you have any questions, suggestions, or feedback, feel free to reach out to me:
 
-- **LinkedIn:** [João Maia](https://www.linkedin.com/in/your-linkedin-profile/)
-- **Email:** [joaomaia@live.com.pt](mailto:your.email@domain.com)
+- [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joao10maia/)
+- [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:joaomaia@live.com.pt)
 
 ---
 
