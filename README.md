@@ -25,3 +25,68 @@ Check out the Wall Following Robot in action! Watch the video demonstration on [
 - **Arduino:** Used for interfacing with sensors and controlling the robot's movements.
 - **Ultrasonic Sensors:** Employed for precise distance measurement and wall detection.
 - **Motor Control:** Efficient motor control for smooth navigation.
+
+## 📦 Repository Structure
+
+- `/src` - Contains the source code for the project.
+- `/docs` - Documentation and schematics.
+- `/hardware` - Details about the components and assembly of the robot.
+
+## 📝 Setup Instructions
+
+### Preparing your PC
+
+#### Software to Download
+
+* Visual Studio Code: [VSCode](https://code.visualstudio.com/download)
+* Distributed version control system: [Git](https://git-scm.com/downloads)
+* USB driver installation made easy: [Zadig](https://github.com/pbatard/libwdi/releases/download/v1.5.0/zadig-2.8.exe)
+
+#### Installation Sequence
+
+1. **Enable Long Paths in Windows:**
+   * Open *Regedit*
+   * Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem`
+   * Set `LongPathsEnabled` to `1`.
+
+2. **Install Git:**
+   * Download and install [Git](https://git-scm.com/downloads).
+   * Open *Git CMD* and run the following command:
+     ```bash
+     git config --global core.longpaths true
+     ```
+   * Reboot your system to apply changes.
+
+3. **Install Visual Studio Code:**
+   * Download and install [VSCode](https://code.visualstudio.com/download).
+
+4. **Set up PlatformIO in VSCode:**
+   * Open VSCode and click the Extensions Icon (on the sidebar).
+   * Search for "PlatformIO" in the marketplace.
+   * Install PlatformIO and restart VSCode when prompted.
+
+### Compiling the Project
+
+1. **Open the Project in VSCode:**
+   * Choose `File -> Open Folder...` and select the folder where the project is located.
+
+2. **Build the Firmware:**
+   * On the first run, PlatformIO may take some time to download the necessary compiler, tools, and libraries.
+   * Once everything is installed, click the checkmark icon at the bottom of the VSCode window to build the firmware.
+
+## 🌟 Future Enhancements
+
+- **Improved Obstacle Avoidance:** Enhance the algorithm for more complex environments.
+- **Path Planning:** Integrate path planning for navigating predefined routes.
+- **Speed Optimization:** Fine-tune motor controls for smoother and faster navigation.
+
+## 📫 Contact
+
+If you have any questions, suggestions, or feedback, feel free to reach out to me:
+
+- **LinkedIn:** [João Maia](https://www.linkedin.com/in/your-linkedin-profile/)
+- **Email:** [your.email@domain.com](mailto:your.email@domain.com)
+
+---
+
+Feel free to fork this repository, contribute, or simply explore the code!
