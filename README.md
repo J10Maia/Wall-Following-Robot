@@ -1,7 +1,5 @@
 # 🤖 Wall Following Robot
 
-![Robot GIF](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)
-
 ## Overview
 
 The Wall Following Robot is an autonomous robotic system designed to follow walls or obstacles using ultrasonic sensors. This project showcases my skills in embedded systems, real-time processing, and robotics. The robot can navigate environments by detecting and maintaining a specific distance from walls, making it ideal for applications in confined or structured spaces.
@@ -90,3 +88,4 @@ If you have any questions, suggestions, or feedback, feel free to reach out to m
 ---
 
 Feel free to fork this repository, contribute, or simply explore the code!
+
